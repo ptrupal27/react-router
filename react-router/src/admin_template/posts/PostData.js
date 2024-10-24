@@ -19,7 +19,7 @@ export default function PostData() {
     <h1>post no: {post.id}</h1>
     <h4><strong>Post Title:</strong></h4>
     <p>{post.title}</p>
-    <h4><strong>Post Body:</strong></h4>
+    <h4><strong>post Body:</strong></h4>
     <p>{post.body}</p>
     <Link to='/posts' className='btn btn-primary'>back to table</Link>
     </>
